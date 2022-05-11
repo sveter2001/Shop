@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { connect } from 'react-redux'
 
 
+
 class ProductsList extends React.Component {
   render() {
     console.log(this.props.products);
@@ -218,7 +219,7 @@ class ProductsList extends React.Component {
         								<div id="slider-range"></div>
 										<div className="row m0">
 											<label for="amount">Price : </label>
-  											<input type="text" id="amount" readonly></input>
+  											<input type="text" id="amount" readOnly></input>
 										</div>
 									</div>
         						</div>
